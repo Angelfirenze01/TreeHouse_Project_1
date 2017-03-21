@@ -1,6 +1,6 @@
-a {
-    text-decoration: none;
-}
+/**********************
+ * GENERAL
+ **********************/
 
 #wrapper {
     max-width: 940px;
@@ -8,37 +8,58 @@ a {
     padding:0 5%;
 }
 
+a {
+    text-decoration: none;
+}
+
+/**********************
+ * HEADING
+ **********************/
 #logo {
     text-align: center;
     margin: 0;
 }
 
-a {
-    color: #6ab47b;
+/**********************
+ * Colors
+ *********************/
+/* Site Body*/
+body {
+    background-color: #fff;
+    color: #999;
 }
 
+/* Green Header */
 header {
     background: #6ab47b;
     border-color: #599a68;
 }
 
+/* Nav Background */
+nav {
+    background: #599a68;
+}
+
+/* Logo Text */
 h1, h2 {
     color: #fff;
 }
 
-nav {
-    background: #599a68;
+/* Links */
+a {
+    color: #6ab47b;
 }
+
+
+/* Nav Link*/
+
 
 nav a, nav a:visited {
     color: #fff;
 }
 
+/* Selected Nav Link */
 nav a.selected, nav a:hover {
     color: #32673f;
 }
 
-body {
-    background-color: #fff;
-    color: #999;
-}
